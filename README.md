@@ -1,6 +1,31 @@
-# io-wallet
-EUDI Wallet and Italian Wallet implementation for App IO
+<!-- THIS PART IS HERE TO EXPLAIN THE TEMPLATE, SHOULD BE REMOVED -->
+# ts-monorepo-scaffold
+A template to start-up a monorepo project in Typescript. 
+Key feature:
+* use `Yarn Workspaces` to handle package linking (https://classic.yarnpkg.com/lang/en/docs/workspaces/)
+* use `Turbo` to run scripts (https://turbo.build/)
+* use `Terraform` to configure infrastructure as code.
 
+## Configure the template
+Once copied files into your repo, you **MUST**:
+* remove this upper part from README;
+* change `package.json`'s `name` field;
+* setup your first infrastructure environment in `/infra/env/` (default is `prod`); 
+* set your subscription into `/infra/env/<your-env>/backend.ini`;
+* set your terraform state storage into `/infra/env/<your-env>/backend.tfvars`;
+
+## Contribute back!
+This template shoudl be kept up-to-date! Don't forget to give back by:
+* upgrading versions for runtime, packages, scripts;
+* refine GitHub workflows;
+* propose improvements you may find useful;
+
+Use `Discussions` to propose improvements.
+
+----
+<!-- THIS PART CAN BE YOUR REPO'S README -->
+# your-project
+Here is what your project is for.
 
 ## Prerequisites
 
